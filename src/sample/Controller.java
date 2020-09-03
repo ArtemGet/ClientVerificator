@@ -110,6 +110,8 @@ public class Controller {
         drawData(data);
         drawId(Id);
 
+        hideAllCh();
+        showCh(Id);
 
 
 
@@ -125,7 +127,10 @@ public class Controller {
             drawData(data);
             drawId(Id);
             clearCh();
+            hideAllCh();
+            showCh(Id);
         });
+
 
 
 
@@ -209,6 +214,83 @@ public class Controller {
             }
 
         });
+    }
+    public void hideAllCh() {
+        ch0.setVisible(false);
+        ch1.setVisible(false);
+        ch2.setVisible(false);
+        ch3.setVisible(false);
+        ch4.setVisible(false);
+        ch5.setVisible(false);
+        ch6.setVisible(false);
+        ch7.setVisible(false);
+    }
+    public  void showCh(ArrayList<Integer> id) {
+        int size = id.size();
+        switch (size) {
+            case 0:
+
+                break;
+            case 1:
+                ch0.setVisible(true);
+
+                break;
+            case 2:
+                ch0.setVisible(true);
+                ch1.setVisible(true);
+
+                break;
+            case 3:
+                ch0.setVisible(true);
+                ch1.setVisible(true);
+                ch2.setVisible(true);
+
+                break;
+            case 4:
+                ch0.setVisible(true);
+                ch1.setVisible(true);
+                ch2.setVisible(true);
+                ch3.setVisible(true);
+
+                break;
+            case 5:
+                ch0.setVisible(true);
+                ch1.setVisible(true);
+                ch2.setVisible(true);
+                ch3.setVisible(true);
+                ch4.setVisible(true);
+
+                break;
+            case 6:
+                ch0.setVisible(true);
+                ch1.setVisible(true);
+                ch2.setVisible(true);
+                ch3.setVisible(true);
+                ch4.setVisible(true);
+                ch5.setVisible(true);
+
+                break;
+            case 7:
+                ch0.setVisible(true);
+                ch1.setVisible(true);
+                ch2.setVisible(true);
+                ch3.setVisible(true);
+                ch4.setVisible(true);
+                ch5.setVisible(true);
+                ch6.setVisible(true);
+                break;
+            case 8:
+                ch0.setVisible(true);
+                ch1.setVisible(true);
+                ch2.setVisible(true);
+                ch3.setVisible(true);
+                ch4.setVisible(true);
+                ch5.setVisible(true);
+                ch6.setVisible(true);
+                ch7.setVisible(true);
+                break;
+
+        }
     }
 
     public static void setVerifId(int c) {
