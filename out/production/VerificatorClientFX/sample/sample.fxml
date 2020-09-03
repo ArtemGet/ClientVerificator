@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1200.0" prefWidth="1800.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane layoutY="122.0" prefHeight="1084.0" prefWidth="1800.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <GridPane layoutX="1063.0" layoutY="24.0" prefHeight="975.0" prefWidth="677.0">
+              <columnConstraints>
+                <ColumnConstraints fx:id="idColumn" hgrow="SOMETIMES" maxWidth="357.0" minWidth="10.0" prefWidth="108.0" />
+                <ColumnConstraints fx:id="dataColumn" hgrow="SOMETIMES" maxWidth="548.0" minWidth="10.0" prefWidth="453.0" />
+                  <ColumnConstraints fx:id="checkColumn" hgrow="SOMETIMES" maxWidth="428.0" minWidth="10.0" prefWidth="123.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="153.0" minHeight="10.0" prefHeight="127.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="229.0" minHeight="0.0" prefHeight="128.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="318.0" minHeight="10.0" prefHeight="118.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="318.0" minHeight="10.0" prefHeight="118.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="318.0" minHeight="10.0" prefHeight="118.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="318.0" minHeight="10.0" prefHeight="118.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="318.0" minHeight="10.0" prefHeight="118.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="318.0" minHeight="10.0" prefHeight="118.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label fx:id="id0" prefHeight="161.0" prefWidth="145.0" text="Label">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="id1" prefHeight="143.0" prefWidth="143.0" text="Label" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="id2" prefHeight="167.0" prefWidth="165.0" text="Label" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="id3" prefHeight="164.0" prefWidth="164.0" text="Label" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="id4" prefHeight="169.0" prefWidth="164.0" text="Label" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="id5" prefHeight="174.0" prefWidth="187.0" text="Label" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="id6" prefHeight="205.0" prefWidth="214.0" text="Label" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="id7" prefHeight="184.0" prefWidth="173.0" text="Label" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="data0" prefHeight="151.0" prefWidth="476.0" text="Label" GridPane.columnIndex="1">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="data1" prefHeight="307.0" prefWidth="556.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="data2" prefHeight="223.0" prefWidth="559.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="data3" prefHeight="174.0" prefWidth="654.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="data4" prefHeight="180.0" prefWidth="520.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="data5" prefHeight="215.0" prefWidth="571.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="data6" prefHeight="185.0" prefWidth="488.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="data7" prefHeight="228.0" prefWidth="517.0" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <CheckBox fx:id="ch0" cache="true" mnemonicParsing="false" prefHeight="17.0" prefWidth="12.0" scaleX="3.0" scaleY="3.0" GridPane.columnIndex="2">
+                     <GridPane.margin>
+                        <Insets left="55.0" />
+                     </GridPane.margin>
+                  </CheckBox>
+                  <CheckBox fx:id="ch2" cache="true" mnemonicParsing="false" prefHeight="17.0" prefWidth="14.0" scaleX="3.0" scaleY="3.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets left="55.0" />
+                     </GridPane.margin>
+                  </CheckBox>
+                  <CheckBox fx:id="ch5" cache="true" mnemonicParsing="false" prefHeight="17.0" prefWidth="14.0" scaleX="3.0" scaleY="3.0" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                     <GridPane.margin>
+                        <Insets left="55.0" />
+                     </GridPane.margin>
+                  </CheckBox>
+                  <CheckBox fx:id="ch1" cache="true" mnemonicParsing="false" prefHeight="17.0" prefWidth="14.0" scaleX="3.0" scaleY="3.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets left="55.0" />
+                     </GridPane.margin>
+                  </CheckBox>
+                  <CheckBox fx:id="ch3" cache="true" mnemonicParsing="false" prefHeight="17.0" prefWidth="14.0" scaleX="3.0" scaleY="3.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets left="55.0" />
+                     </GridPane.margin>
+                  </CheckBox>
+                  <CheckBox fx:id="ch4" cache="true" mnemonicParsing="false" prefHeight="17.0" prefWidth="14.0" scaleX="3.0" scaleY="3.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                     <GridPane.margin>
+                        <Insets left="55.0" />
+                     </GridPane.margin>
+                  </CheckBox>
+                  <CheckBox fx:id="ch6" cache="true" mnemonicParsing="false" prefHeight="17.0" prefWidth="14.0" scaleX="3.0" scaleY="3.0" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                     <GridPane.margin>
+                        <Insets left="55.0" />
+                     </GridPane.margin>
+                  </CheckBox>
+                  <CheckBox fx:id="ch7" cache="true" mnemonicParsing="false" prefHeight="17.0" prefWidth="14.0" scaleX="3.0" scaleY="3.0" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                     <GridPane.margin>
+                        <Insets left="55.0" />
+                     </GridPane.margin>
+                  </CheckBox>
+               </children>
+            </GridPane>
+         </children>
+      </AnchorPane>
+      <Button fx:id="refreshData" layoutX="1526.0" layoutY="32.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="149.0" text="Refresh">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+      <Button fx:id="sendData" layoutX="1343.0" layoutY="32.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="149.0" text="Send">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
